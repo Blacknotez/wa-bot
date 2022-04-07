@@ -7,7 +7,7 @@ bot(
     await message.sendMessage('```Ping!```')
     const end = new Date().getTime()
     return await message.sendMessage(
-      '*Pong!*\n ```' + (end - start) + '``` *ms*'
+      '*Pling!*\n ```' + (end - start) + '``` *ms*'
     )
   }
 )
